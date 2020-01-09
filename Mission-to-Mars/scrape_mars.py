@@ -3,7 +3,7 @@ from splinter import Browser
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
-def fullscrape():
+def scrape_all():
     browser = Browser('chrome')
     # Step 1.1: NASA Mars News
     #visit webpage
